@@ -1,0 +1,89 @@
+@import "./macchiato.css";
+@define-color lavender  #b7bdf8;
+@define-color text     #cad3f5;
+@define-color base   #24273a;
+
+@define-color clear rgba(0, 0, 0, 0.0);
+@define-color primary rgba(0, 0, 0, 0.75);
+
+window {
+  margin: 2px;
+  border: 2px solid;
+  border-color: @lavender;
+  background-color: @base;
+  border-radius: 10px;
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 14px;
+}
+
+#input {
+  padding: 8px;
+  margin: 4px;
+  margin-bottom: 8px;
+  border: none;
+  color: @text;
+  background-color: @base;
+  outline: none;
+  border-radius: 8px;
+}
+
+#input:focus {
+  border: 0px solid @base;
+  margin-bottom: 0px;
+}
+
+#inner-box {
+  margin: 4px;
+  border: 0px solid @lavender;
+  background-color: @base;
+  border-radius: 8px;
+  color: @text;
+  /* font-weight: bold; */
+}
+
+#outer-box {
+  margin: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: @base;
+}
+
+#scroll {
+  margin: 0px;
+  border: none;
+  /* background-color: @lavender; */
+}
+
+#img {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#img:selected {
+  background-color: @lavender;
+  border-radius: 15px;
+}
+
+#text:selected {
+  color: @base;
+  margin: 0px 0px;
+  border: none;
+  border-radius: 8px;
+  background-color: @lavender;
+}
+
+#entry {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+
+#entry:selected {
+  margin: 0px 0px;
+  border: none;
+  border-radius: 8px;
+  background-color: @lavender;
+}
