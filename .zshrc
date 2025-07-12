@@ -1,6 +1,3 @@
-# zmodload zsh/zprof
-# Luke's config for the Zoomer Shell
-
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 export EDITOR=nvim
