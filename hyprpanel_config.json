@@ -1,0 +1,101 @@
+{
+  "bar.customModules.updates.pollingInterval": 1440000,
+  "theme.font.weight": 600,
+  "theme.bar.transparent": true,
+  "theme.bar.buttons.opacity": 100,
+  "theme.bar.buttons.background_opacity": 90,
+  "bar.workspaces.monitorSpecific": false,
+  "theme.bar.buttons.workspaces.enableBorder": false,
+  "bar.workspaces.show_icons": false,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true,
+  "bar.workspaces.show_numbered": false,
+  "bar.workspaces.numbered_active_indicator": "highlight",
+  "menus.media.displayTime": true,
+  "menus.media.displayTimeTooltip": true,
+  "theme.bar.floating": false,
+  "theme.bar.buttons.enableBorders": true,
+  "menus.power.lowBatteryNotification": true,
+  "menus.clock.time.military": true,
+  "menus.clock.time.hideSeconds": false,
+  "menus.clock.weather.location": "Belgrade",
+  "menus.clock.weather.unit": "metric",
+  "theme.bar.buttons.windowtitle.enableBorder": false,
+  "bar.windowtitle.custom_title": false,
+  "bar.windowtitle.class_name": false,
+  "bar.windowtitle.label": true,
+  "bar.clock.showTime": true,
+  "bar.clock.format": "%a %d %b  %H:%M",
+  "bar.clock.showIcon": true,
+  "theme.bar.buttons.clock.enableBorder": false,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media",
+        "clock"
+      ],
+      "right": [
+        "storage",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces"
+      ],
+      "middle": [
+        "clock"
+      ],
+      "right": [
+        "storage",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces"
+      ],
+      "middle": [
+        "clock"
+      ],
+      "right": [
+        "storage",
+        "volume",
+        "network",
+        "bluetooth",
+        "battery",
+        "notifications"
+      ]
+    }
+  },
+  "bar.media.show_active_only": true,
+  "scalingPriority": "hyprland",
+  "theme.font.size": "1.2rem",
+  "theme.bar.buttons.padding_y": "0.3rem",
+  "theme.bar.border.location": "none",
+  "theme.bar.dropdownGap": "2.9em",
+  "theme.bar.border.width": "0em",
+  "theme.bar.outer_spacing": "0.3em",
+  "theme.bar.buttons.y_margins": "0.3em",
+  "theme.bar.buttons.borderSize": "0.15em",
+  "theme.bar.border_radius": "0.5em",
+  "theme.bar.buttons.radius": "0.35em",
+  "bar.windowtitle.truncation_size": 42,
+  "theme.font.name": "JetBrainsMono Nerd Font Propo",
+  "theme.font.label": "JetBrainsMono Nerd Font Propo"
+}
