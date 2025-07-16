@@ -1,0 +1,32 @@
+# Zathura configuration file
+# See man `man zathurarc'
+
+# colors
+include catppuccin-macchiato
+
+# Open document in fit-width mode by default
+set adjust-open "best-fit"
+
+# One page per row by default
+set pages-per-row 1
+
+#stop at page boundries
+set scroll-page-aware "true"
+set smooth-scroll "true"
+set scroll-full-overlap 0.01
+set scroll-step 100
+
+#zoom settings
+set zoom-min 10
+set guioptions ""
+
+set render-loading "false"
+set scroll-step 50
+map F toggle_fullscreen
+map [fullscreen] F toggle_fullscreen
+
+#smooth scroll
+map j feedkeys "<C-Down>"
+map k feedkeys "<C-Up>"
+map [fullscreen] j feedkeys "<C-Down>"
+map [fullscreen] k feedkeys "<C-Up>"
